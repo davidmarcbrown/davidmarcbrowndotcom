@@ -1,6 +1,16 @@
+.dmb_nav_ul_right {
+    display: block;
+    float: right;
+    width: auto !important;
+}
+
+.dmb_nav_ul_left {
+    display: inline;
+}
+
 #nav {
     position: static;
-    text-align: right;
+    text-align: left;
 }
 
 .wrapper.style1 {
