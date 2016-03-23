@@ -1,11 +1,14 @@
 .dmb_nav_ul_right {
     display: block;
     float: right;
+    text-align: right;
     width: auto !important;
 }
 
 .dmb_nav_ul_left {
-    display: inline;
+    display: block;
+    width: 100% !important;
+    margin-left: 0px;
 }
 
 #nav {
@@ -42,6 +45,7 @@
 
 .wrapper.style1.first {
     padding-bottom: 1em;
+    
 }
 
 .style1 hr {
