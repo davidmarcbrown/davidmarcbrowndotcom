@@ -45,7 +45,6 @@
 
 .wrapper.style1.first {
     padding-bottom: 1em;
-    
 }
 
 .style1 hr {
@@ -98,5 +97,11 @@ ul.social li a.fa-rss {
     
     .wrapper.style1 {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 737px) {
+    .wrapper.first {
+        padding-top: 6em;
     }
 }
