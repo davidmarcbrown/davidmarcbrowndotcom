@@ -11,6 +11,11 @@
 #nav {
     position: static;
     text-align: left;
+    background-color: transparent;
+}
+
+#nav a {
+    color: black;
 }
 
 .wrapper.style1 {
@@ -95,4 +100,12 @@ ul.social li a.fa-rss {
     .wrapper.style1 {
         width: 100%;
     }
+}
+
+@media screen and (min-width: 737px) {
+    .wrapper.first {
+        padding-top: 2em;
+    }
+    
+    
 }
