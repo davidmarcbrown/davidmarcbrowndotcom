@@ -107,10 +107,11 @@ ul.social li a.fa-rss {
     }
     
     .style1 img {
-        width: 50%;
+        width: 25%;
     }
 
 }
+
 
 @media screen and (min-width: 737px) {
     .wrapper.first {
