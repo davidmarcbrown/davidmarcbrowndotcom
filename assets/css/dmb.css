@@ -1,3 +1,12 @@
+@import url("font-awesome.min.css");
+
+body, input, textarea, select {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.85em;
+    color: #888;
+    font-weight: 300;
+}
+
 .dmb_nav_ul_right {
     display: block;
     float: right;
@@ -96,6 +105,39 @@ ul.social li a.fa-github {
 ul.social li a.fa-rss {
     background-color: #FAFAFA;
 }
+
+/* Icons */
+
+	.icon {
+		text-decoration: none;
+	}
+
+		.icon:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.featured {
+			color: #EA8A95;
+			display: block;
+			margin: 0 0 1.5em 0;
+			cursor: default;
+		}
+
+			.icon.featured:before {
+				font-size: 6em;
+			}
 
 @media screen and (max-width: 736px) {
     .style1 h2 {
