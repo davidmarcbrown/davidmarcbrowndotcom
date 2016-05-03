@@ -13,10 +13,13 @@ body, input, textarea, select {
     border: none;
     padding-bottom: 0;
     margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .jumbotron {
     background-color: inherit;
+    text-align: center;
 }
 
 .jumbotron h1 {
@@ -146,7 +149,11 @@ ul.social li a.fa-rss {
 }
 
 
-@media screen and (min-width: 737px) {    
+@media screen and (min-width: 737px) {
+    .container {
+        max-width: 730px;
+    }
+        
     h1 {
         margin-bottom: 0px;
     }
