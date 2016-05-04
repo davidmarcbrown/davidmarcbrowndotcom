@@ -9,6 +9,10 @@ body, input, textarea, select {
     padding-top: 0;
 }
 
+.row {
+    margin: 0;
+}
+
 .header {
     border: none;
     padding-bottom: 0;
@@ -79,6 +83,8 @@ body, input, textarea, select {
     background-image: url('/images/uludag_800x600.jpg');  
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 
 ul.social li a {
@@ -113,56 +119,58 @@ ul.social li a.fa-rss {
 
 /* Icons */
 
-	.icon {
-		text-decoration: none;
-	}
+.icon {
+    text-decoration: none;
+}
 
-		.icon:before {
-			display: inline-block;
-			font-family: FontAwesome;
-			font-size: 1.25em;
-			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			line-height: 1;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
-		}
+.icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-		.icon > .label {
-			display: none;
-		}
+.icon > .label {
+    display: none;
+}
 
-		.icon.featured {
-			color: #EA8A95;
-			display: block;
-			margin: 0 0 1.5em 0;
-			cursor: default;
-		}
+.icon.featured {
+    color: #EA8A95;
+    display: block;
+    margin: 0 0 1.5em 0;
+    cursor: default;
+}
 
-			.icon.featured:before {
-				font-size: 6em;
-			}
+.icon.featured:before {
+    font-size: 6em;
+}
 
-@media screen and (max-width: 736px) {
-       .container {
-           padding: 0;
-       }
-       
-       
-       
+@media (min-width: 1200px){
+    .container{
+        width: 740px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        width: 740px;
+    }
 }
 
 @media screen and (min-width: 737px) {
-    .container {
-        max-width: 730px;
-    }
-        
+          
     h1 {
         margin-bottom: 0px;
     }
 }
 
-@media screen and (min-resolution: 300dpi) {
-
+@media (orientation: portrait){
+    .container{
+        padding: 0;
+    }
 }
