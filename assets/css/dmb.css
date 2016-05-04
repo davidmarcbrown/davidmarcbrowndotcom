@@ -49,6 +49,11 @@ body, input, textarea, select {
     padding: 0;
 }
 
+.dmb_row {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 #headshot {
     width: 128px;
     border-radius: 100%;
@@ -147,7 +152,6 @@ ul.social li a.fa-rss {
        
        
 }
-
 
 @media screen and (min-width: 737px) {
     .container {
