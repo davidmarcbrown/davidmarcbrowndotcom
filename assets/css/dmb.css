@@ -10,7 +10,14 @@ body, input, textarea, select {
 }
 
 .row {
-    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.about {
+    color: darkgray;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 .header {
@@ -24,6 +31,7 @@ body, input, textarea, select {
 .jumbotron {
     background-color: inherit;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .jumbotron h1 {
@@ -79,9 +87,12 @@ body, input, textarea, select {
     padding: 15px;
 }
 
+.container{
+    padding: 0;
+}
+
 .background {
     background-image: url('/images/uludag_800x600.jpg');  
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -117,8 +128,12 @@ ul.social li a.fa-rss {
     background-color: #FAFAFA;
 }
 
-/* Icons */
+footer {
+    border-top: 1px lightgrey solid;
+    margin-top: 15px;
+}
 
+/* Icons */
 .icon {
     text-decoration: none;
 }
@@ -150,27 +165,8 @@ ul.social li a.fa-rss {
     font-size: 6em;
 }
 
-@media (min-width: 1200px){
-    .container{
-        width: 740px;
-    }
-}
-
 @media (min-width: 992px){
     .container{
         width: 740px;
-    }
-}
-
-@media screen and (min-width: 737px) {
-          
-    h1 {
-        margin-bottom: 0px;
-    }
-}
-
-@media (orientation: portrait){
-    .container{
-        padding: 0;
     }
 }
