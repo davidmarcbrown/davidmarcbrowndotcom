@@ -9,15 +9,19 @@ body, input, textarea, select {
     padding-top: 0;
 }
 
+p{
+    margin-bottom: 20px;
+}
+
 .row {
     margin-right: 0;
     margin-left: 0;
 }
 
-.about {
+.main {
     color: darkgray;
-    margin-right: 1em;
-    margin-left: 1em;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .header {
@@ -130,7 +134,39 @@ ul.social li a.fa-rss {
 
 footer {
     border-top: 1px lightgrey solid;
-    margin-top: 15px;
+    margin: 15px;
+}
+
+.table-wrapper {
+    display: table;
+    margin-bottom: 1.5em;
+}
+
+.img-cell {
+    display: table-cell;
+    text-align: center;
+    width: 20%;
+    padding-top: 0.5em;
+}
+
+.text-cell {
+    display: table-cell;
+    vertical-align: top;
+    width: 80%;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.school {
+    margin-left: 1em;
+    font-style: italic;
 }
 
 /* Icons */
