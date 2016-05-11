@@ -9,6 +9,15 @@ body, input, textarea, select {
     padding-top: 0;
 }
 
+a {
+    color: #777;
+    text-decoration: underline;
+}
+
+a:focus, a:hover {
+    color: #777;
+}
+
 p{
     margin-bottom: 20px;
 }
@@ -22,6 +31,10 @@ p{
     color: darkgray;
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.education {
+    margin-left: 1em;
 }
 
 .header {
@@ -56,6 +69,8 @@ p{
     float: right;
     text-align: right;
     width: auto !important;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .dmb_nav_ul_left {
@@ -164,8 +179,11 @@ h5 {
     height: auto;
 }
 
-.school {
+.indented {
     margin-left: 1em;
+}
+
+.school {
     font-style: italic;
 }
 
